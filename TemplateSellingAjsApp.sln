@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngularJS", "AngularJS-Project\AngularJS.csproj", "{83435B84-ACA1-47F7-84E7-F4DB59093085}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "REST-WebApi", "REST-WebApi\REST-WebApi.csproj", "{63768EF2-DD5E-45E4-84B1-E20EB4BDAB1B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{17A7509B-24D4-4614-BCBE-FCEBE6603EC6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "REST-BackEnd", "REST-BackEnd", "{8D0B2CAE-7AAA-44B7-A8FE-208DA7A5C828}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database", "Database", "{0F5F419B-BCE4-4560-BCB1-1DADA3D4B4AD}"
+	ProjectSection(SolutionItems) = preProject
+		Database\TemplateSellingAjsApp.sql = Database\TemplateSellingAjsApp.sql
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{BD152CFB-65C3-4099-AEDA-F3498C6AC592}"
+	ProjectSection(SolutionItems) = preProject
+		Documentation\TemplateSellingAjsApp.docx = Documentation\TemplateSellingAjsApp.docx
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{83435B84-ACA1-47F7-84E7-F4DB59093085}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83435B84-ACA1-47F7-84E7-F4DB59093085}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83435B84-ACA1-47F7-84E7-F4DB59093085}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83435B84-ACA1-47F7-84E7-F4DB59093085}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63768EF2-DD5E-45E4-84B1-E20EB4BDAB1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63768EF2-DD5E-45E4-84B1-E20EB4BDAB1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63768EF2-DD5E-45E4-84B1-E20EB4BDAB1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63768EF2-DD5E-45E4-84B1-E20EB4BDAB1B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{83435B84-ACA1-47F7-84E7-F4DB59093085} = {17A7509B-24D4-4614-BCBE-FCEBE6603EC6}
+		{63768EF2-DD5E-45E4-84B1-E20EB4BDAB1B} = {8D0B2CAE-7AAA-44B7-A8FE-208DA7A5C828}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E613F7B7-8CF4-4A9D-AD98-944F59B85018}
+	EndGlobalSection
+EndGlobal
